@@ -53,3 +53,4 @@ progress.addEventListener("click", (click) => {
   let x = (click.offsetX / progress.offsetWidth) * viewer.duration;
   viewer.currentTime = x;
 });
+
